@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: right;
+    margin: auto;
+    padding-top: 25px;
+    text-align: left;
+    .circle{
+        height:55px;
+        width:55px;
+        border-radius: 50px;
+        background:green;
+    }
+    .header{
+        border-top: 10px solid gray;
+        width: 80px;
+    }
+}
+
+.loremTextBlock{
+    margin-left: 90px;
+    margin-top: -53px;
+}
+
+.loremBody{
+    margin-top: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    .long{
+        border-bottom: 5px solid gray;
+        width: 300px;
+    }
+    .mid{
+        border-bottom: 5px solid gray;
+        width: 280px;
+    }
+    .short{
+        border-bottom: 5px solid gray;
+        width: 250px;
+    }
+}
